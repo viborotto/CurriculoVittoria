@@ -32,4 +32,10 @@ li:hover {
 span:hover{
     color: white;
 }
+.crousel{
+background-color: darkorchid;
+}
 
+span .carousel-control-prev-icon{
+    background-color: #21252a;
+}

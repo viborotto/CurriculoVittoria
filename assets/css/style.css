@@ -9,6 +9,7 @@ div .col-12 {
     max-width: 100%;  
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
   transition: width 2s, height 2s, transform 2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #vitt:hover {
     height: auto;
@@ -32,10 +33,35 @@ li:hover {
 span:hover{
     color: white;
 }
-.crousel{
+.carousel{
 background-color: darkorchid;
+
 }
 
 span .carousel-control-prev-icon{
     background-color: #21252a;
+}
+
+
+#redes{
+    overflow: hidden;
+    margin-left: 0;
+    padding: 5px;
+}
+.fab{
+max-width: 100%;
+transition: all 0.3s;
+font-size: 40px;
+margin-left: 10px;
+
+}
+.fab:hover{
+    transform: scale(1.2);
+}
+h3{
+    max-width: 100%;
+transition: all 0.3s;
+}
+h3:hover{
+    transform: scale(1.2);
 }

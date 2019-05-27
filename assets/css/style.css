@@ -65,3 +65,16 @@ transition: all 0.3s;
 h3:hover{
     transform: scale(1.2);
 }
+#imagens{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.imgs{
+    height: 100px;
+    max-width: 100%;
+    transition: all 0.3s;
+}
+.imgs:hover{
+    transform: scale(1.2);
+}

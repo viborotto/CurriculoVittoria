@@ -1,5 +1,6 @@
 div .col-12 {
-    margin: 0;
+    margin-left: 0px;
+    margin-right:0px;
     padding: 0;
 }
 
@@ -21,6 +22,10 @@ div .col-12 {
 
 #CV {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+}
+#barra{
+    margin-left: 30px;
 }
 
 li:hover {
@@ -69,6 +74,7 @@ h3:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .imgs{
     height: 100px;
@@ -77,4 +83,24 @@ h3:hover{
 }
 .imgs:hover{
     transform: scale(1.2);
+}
+
+#redes a {
+    color: #21252a;
+    
+}
+#ufabclogo{
+    float: left;
+}
+#teste {
+    margin-left: 14px;
+}
+#about{
+    margin-left:10px;
+    margin-right: 0px;
+    padding-left: 0pxpx;
+}
+#skills{
+    margin-left: 100px;
+    margin-right: 100px;
 }

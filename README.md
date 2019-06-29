@@ -1,2 +1,2 @@
-# Currículo Vittória Borotto
+# cv-vittoria-borotto
 Meu Currículo Online!
